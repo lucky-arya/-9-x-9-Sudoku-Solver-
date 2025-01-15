@@ -91,7 +91,7 @@ public class SudokuSolver {
     }
 
     public static void main(String[] args) {
-        // Example grid with multiple solutions
+        
         int[][] Sudoku =inputSudoku();
         System.out.println("Given Input is :");
         SolveSudoku(Sudoku, 0, 0);
